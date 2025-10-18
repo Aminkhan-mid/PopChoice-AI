@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "popchoice-ai",
+  "version": "1.0.0",
+  "description": "A app that will help you find movies tailored to your preferencess.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aminkhan-mid/PopChocie-AI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aminkhan-mid/PopChocie-AI/issues"
+  },
+  "homepage": "https://github.com/Aminkhan-mid/PopChocie-AI#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
