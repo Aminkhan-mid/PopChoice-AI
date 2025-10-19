@@ -47,19 +47,19 @@ async function  getResponse() {
         }
         const formattedGenres = item.genre.join(", ")
         return `
-       <div class="movie-container" style="background:url('${poster}')"></div>
+        <div class="movie-container" style="background:url('${poster}')"></div>
         <div class="text-container">
             <h2 class="movieName">${item.name}</h2>
-            
-            <span class="ratingsGenre-flex">
-                <p class="movieRatings">${item.IMDB || "N/A"}/10</p>
-                <p class="movieGenres">${formattedGenres || "Unknown"}</p>
-            </span>
-            <p class="movieDesc">${item.description}</p>
-            <span class="year-flex">
-                Release Year:
-                <p class="movieRelease">${item.releaseDate}</p>
-            </span>
+        
+        <span class="ratingsGenre-flex">
+            <p class="movieRatings">${item.IMDB || "N/A"}/10</p>
+            <p class="movieGenres">${formattedGenres || "Unknown"}</p>
+        </span>
+        <p class="movieDesc">${item.description}</p>
+        <span class="year-flex">
+            Release Year:
+            <p class="movieRelease">${item.releaseDate}</p>
+        </span>
         </div>
         `
         })
