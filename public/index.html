@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopChoice-AI</title>
+    <!-- CSS LINKS -->
+     <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+      <header>
+        <img src="./popchoice.png" alt="a popcorn with eyes!">
+        <h1>Pop Choice</h1>
+    </header>
+
+
+    <main>
+        <div id="container">
+            <section>
+                <p>What's your favorite movie and why?</p>
+                <input  
+                type="text" 
+                placeholder="I really love Adventure Time"
+                id="favorite-inp"
+                class="favorite-inp"
+                required>
+            </section>
+            
+            <section>
+                <p class="mood-p">Are you in the mood of something new or a classic?</p>
+                <input  
+                type="text" 
+                placeholder="I want movies that were released after 1990"
+                id="mood-inp"
+                class="mood-inp"
+                required>
+            </section>
+            
+            <section>
+                <p class="seriousness-p">Do you wanna have fun or do you want something serious?</p>
+                <input  
+                type="text" 
+                placeholder="I want to watch something stupid and fun"
+                id="fun-inp"
+                class="fun-inp"
+                required>
+            </section>
+        </div>
+
+        <button id="letsGo-btn" class="letsGo-btn">Let's Go</button>
+    </main>
+
+    <script src="./frontend.js" type="module"></script>
+</body>
+</html>

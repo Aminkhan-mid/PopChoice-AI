@@ -1,2 +1,2 @@
 # PopChocie-AI
-A app that will help you find moives tailored to your preferencess.
+A app that will help you find movies tailored to your preferences.

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000d36;   
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    margin: 2.9em auto 0.5em auto;
+}
+img{
+    width: 100px;
+}
+h1{
+    font-family: 'Carter One', sans-serif;
+    margin-bottom: 1em;
+}
+
+section{
+    width: 328px;
+    height: 108px;
+
+    margin: 0 auto;
+    margin-bottom: 2.25em;
+}
+p{
+    margin-bottom: 0.8em;
+}
+.mood-p{
+    width: 260px;
+}
+.seriousness-p{
+    width: 300px;
+}
+input{
+    background-color: #3B4877;
+    color: #FFFFFF;
+    border-radius: 1em;
+    width: 325px;
+    padding: 1em 0.5em 4em 0.5em;
+    border: none;
+    text-overflow:ellipsis;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color: #05060C;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+button{
+    color: #05060C;
+    font-family: 'Roboto Slab', sans-serif;
+    width: 325px;
+    height: 71px;
+    border-radius: 0.5em;
+    border: none;
+    font-size: 2rem;
+    display: block;
+    margin: 1.8em auto;
+    cursor: pointer;
+}
+.letsGo-btn{
+    background-color:#52e08a;
+}
+
+svg{
+    width: 100px;
+    height: 100px;
+    color: red;
+    filter: drop-shadow(0px 0px 5px red);
+    display: block;
+    margin: auto;
+}
+
+
+/* Movie Poster html */
+
+.movie-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+.text-container{
+    width: 300px;
+    margin: 0 auto 1em;
+    background-color: #05060C;
+    padding: 0.5em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+.movieName{
+    width: fit-content;
+    margin-bottom: 0.5em;
+}
+.ratingsGenre-flex{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-weight: bold;
+}
+.movieRatings{
+    color:#52e08a;
+}
+
+.movieGenres{
+    color:antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+}
+.movieDesc{
+    line-height: 1.5;
+}
+.year-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #52e08a;
+}
+.movieRelease{
+    font-size: 2rem;
+    width: fit-content;
+    margin-bottom: -1px;
+    margin-left: 1em;
+    text-shadow: 1px 1px 0px #FFFFFF;
+}

@@ -2,7 +2,7 @@
   "type": "module",
   "name": "popchoice-ai",
   "version": "1.0.0",
-  "description": "A app that will help you find movies tailored to your preferencess.",
+  "description": "A app that will help you find movies tailored to your preferences.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
