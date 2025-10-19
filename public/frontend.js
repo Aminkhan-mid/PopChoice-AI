@@ -68,8 +68,7 @@ async function  getResponse() {
         <button id="goAgain-btn" class="letsGo-btn">Go Again</button>
     `
     letsGoBtn.style.display = "none"
+    document.getElementById("goAgain-btn").addEventListener("click", ()=>{
+        window.location.reload()
+    })
 }
-
-document.getElementById("goAgain-btn").addEventListener("click", ()=>{
-    window.location.reload()
-})
