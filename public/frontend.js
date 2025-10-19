@@ -70,3 +70,6 @@ async function  getResponse() {
     letsGoBtn.style.display = "none"
 }
 
+document.getElementById("goAgain-btn").addEventListener("click", ()=>{
+    window.location.reload()
+})
