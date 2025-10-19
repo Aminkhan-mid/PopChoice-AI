@@ -91,7 +91,7 @@ svg{
 /* Movie Poster html */
 
 .movie-container{
-    box-shadow: 0px 0px 8px white;
+    border:1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,7 +106,7 @@ svg{
     border-top-left-radius: 1em;
 }
 .text-container{
-    box-shadow: 0px 0px 8px white;
+    border: 1px solid white;
     width: 300px;
     margin: 0 auto 1em;
     background-color: #05060C;
